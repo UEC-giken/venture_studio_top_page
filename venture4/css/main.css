@@ -11,12 +11,13 @@
 */
 
 /* =================================== */
-/*	Basic Style
+/*    Basic Style
 /* =================================== */
 
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family:  "Mplus 1p", 'Open Sans', sans-serif;
+    font-weight: 300;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -49,7 +50,8 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family:  "Mplus 1p",'Open Sans', sans-serif;
+    font-weight: 300;
     color: #252525;
 }
 
@@ -83,79 +85,79 @@ main > section {
 
 /* Sweep To Right */
 .btn-effect {
-	vertical-align: middle;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	position: relative;
-	display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    display: inline-block;
 
-	-webkit-transform: translateZ(0);
-	   -moz-transform: translateZ(0);
-		-ms-transform: translateZ(0);
-		 -o-transform: translateZ(0);
-			transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0);
 
-	-webkit-backface-visibility: hidden;
-	   -moz-backface-visibility: hidden;
-			backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+            backface-visibility: hidden;
 
-	-webkit-transition-property: color;
-	   -moz-transition-property: color;
-		-ms-transition-property: color;
-			transition-property: color;
+    -webkit-transition-property: color;
+       -moz-transition-property: color;
+        -ms-transition-property: color;
+            transition-property: color;
 
-	-webkit-transition-duration: 0.3s;
-	   -moz-transition-duration: 0.3s;
-		-ms-transition-duration: 0.3s;
-			transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+       -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+            transition-duration: 0.3s;
 
-	-moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .btn-effect:before {
-	content: "";
-	position: absolute;
-	z-index: -1;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #fff;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
 
-	-webkit-transform: scaleX(0);
-	   -moz-transform: scaleX(0);
-		-ms-transform: scaleX(0);
-			transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+       -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
 
-	-webkit-transform-origin: 0 50%;
-	   -moz-transform-origin: 0 50%;
-		-ms-transform-origin: 0 50%;
-			transform-origin: 0 50%;
+    -webkit-transform-origin: 0 50%;
+       -moz-transform-origin: 0 50%;
+        -ms-transform-origin: 0 50%;
+            transform-origin: 0 50%;
 
-	-webkit-transition-property: transform;
-	   -moz-transition-property: transform;
-		-ms-transition-property: transform;
-			transition-property: transform;
+    -webkit-transition-property: transform;
+       -moz-transition-property: transform;
+        -ms-transition-property: transform;
+            transition-property: transform;
 
-	-webkit-transition-duration: 0.3s;
-	   -moz-transition-duration: 0.3s;
-		-ms-transition-duration: 0.3s;
-			transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+       -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+            transition-duration: 0.3s;
 
-	-webkit-transition-timing-function: ease-out;
-	   -moz-transition-timing-function: ease-out;
-		-ms-transition-timing-function: ease-out;
-			transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+       -moz-transition-timing-function: ease-out;
+        -ms-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+    color: #009EE3;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
-	-webkit-transform: scaleX(1);
-	   -moz-transform: scaleX(1);
-	    -ms-transform: scaleX(1);
-			transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+       -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
 }
 
 .sec-title {
@@ -201,7 +203,7 @@ main > section {
 
 
 /**
-/*	Preloader
+/*    Preloader
 /* ==========================================*/
 
 #preloader {
@@ -269,7 +271,7 @@ main > section {
 
 
 /**
-/*	Header
+/*    Header
 /* ==========================================*/
 
 #navigation {
@@ -279,7 +281,7 @@ main > section {
          -o-transition: all 0.8s ease 0s;
             transition: all 0.8s ease 0s;
 
-    background-color: rgba(200,200,200,.4);  /*ここでヘッダの色を変更*/
+    background-color: rgba(46, 46, 46,.85);  /*ここでヘッダの色を変更*/
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
@@ -296,14 +298,14 @@ h1.navbar-brand {
 }
 
 .navbar-inverse .navbar-nav > li > a {  /*ここでヘッダ右側の文字の設定*/
-    color: #000000;
+    color: #FFFFFF;
     font-size: 20px;
     text-transform: uppercase;
 }
 
 
 /*=================================================================
-	Home Slider
+    Home Slider
 ==================================================================*/
 
 
@@ -368,8 +370,9 @@ h1.navbar-brand {
 }
 
 .caption-content > span {
-    display: block;
+  display: block;
     font-size: 24px;
+    line-height: 38px;
     margin-bottom: 45px;
     text-transform: capitalize;
 }
@@ -508,7 +511,7 @@ h1.navbar-brand {
 }
 
 /*=================================================================
-	About
+    About
 ==================================================================*/
 
 #about {
@@ -568,7 +571,7 @@ h1.navbar-brand {
 }
 
 /*=================================================================
-	Services
+    Services
 ==================================================================*/
 
 .service-icon {
@@ -611,7 +614,7 @@ h1.navbar-brand {
 }
 
 /*=================================================================
-	Portfolio
+    Portfolio
 ==================================================================*/
 
 .project-wrapper {
@@ -727,7 +730,7 @@ ul.external li a:hover {
 }
 
 /*=================================================================
-	Testimonials
+    Testimonials
 ==================================================================*/
 
 
@@ -898,7 +901,7 @@ ul.external li a:hover {
 
 
 /*=================================================================
-	Price
+    Price
 ==================================================================*/
 
 #social {
@@ -949,7 +952,7 @@ ul.external li a:hover {
 
 
 /*=================================================================
-	Contact
+    Contact
 ==================================================================*/
 
 .input-field {
@@ -1005,7 +1008,7 @@ textarea.form-control {
 
 
 /*============================================================
-	Google Maps
+    Google Maps
 ==============================================================*/
 
 #google-map {
@@ -1019,12 +1022,13 @@ textarea.form-control {
 
 
 /*============================================================
-	Footer
+    Footer
 ==============================================================*/
 
 #footer {
     background-color: #2E2E2E;
     padding: 70px 0;
+    font-weight: 400;    
     color: #fff;
 }
 
@@ -1136,11 +1140,11 @@ textarea.form-control {
 
 
 /*============================================================
-	Responsive Styles
+    Responsive Styles
  ============================================================*/
 
 /*============================================================
-	For Small Desktop
+    For Small Desktop
 ==============================================================*/
 
 @media (min-width: 980px) and (max-width: 1150px) {
@@ -1162,7 +1166,7 @@ textarea.form-control {
 
 
 /*============================================================
-	Tablet (Portrait) Design for a width of 768px
+    Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -1220,7 +1224,7 @@ textarea.form-control {
 
 
 /*============================================================
-	Mobile (Portrait) Design for a width of 320px
+    Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
@@ -1257,6 +1261,7 @@ textarea.form-control {
     }
 
     .caption-content > span {
+        display: inline-block;
         font-size: 16px;
         margin-bottom: 20px;
     }
@@ -1366,7 +1371,7 @@ textarea.form-control {
 
 
 /*============================================================
-	Mobile (Landscape) Design for a width of 480px
+    Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
